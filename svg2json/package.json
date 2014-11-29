@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "svg-path-parser": "*",
+        "nopt": "*",
+        "jsdom": "*",
+        "vow": "*"
+    }
+}
