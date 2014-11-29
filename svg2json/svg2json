@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var nopt = require('nopt');
+var converter = require('./converter.js');
+
+var parsed = nopt({
+    'input': String,
+});
+
+converter(parsed['input']).then(function(data) {
+	console.log(data);
+});
