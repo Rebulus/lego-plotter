@@ -1,0 +1,21 @@
+html
+    head
+        link(rel='stylesheet', href='styl/main.css')
+        title Yo
+    body
+        h1 А тут типо текст
+        | Буква
+        form(action="/letter", method="POST")
+            input(type="text", name="letter")
+            input(type="submit", value="Сохранить")
+            input(type="hidden", name="svg")
+
+        .grid
+            each i in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                each j in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                    .cell(class= 'cell-v' + i + ' cell-h' + j, data-x=j, data-y=i)
+
+        script(src='bower_components/raphael/raphael-min.js')
+        script(src='bower_components/jquery/dist/jquery.js')
+        script(src='js/main.js')
+            
