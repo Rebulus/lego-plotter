@@ -23,5 +23,9 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/jshint . && ./node_modules/.bin/jscs . ./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "jade": "^1.8.0"
   }
 }
