@@ -1,0 +1,35 @@
+.grid
+  width: 100px
+  height: 100px
+  position: relative
+
+.cell
+  position: absolute
+  width: 10px
+  height: 10px
+  border-radius: 50%
+  background-color: lime
+  -webkit-transition: background-color .2s
+  -moz-transition: background-color .2s
+  -ms-transition: background-color .2s
+  -o-transition: background-color .2s
+  transition: background-color .2s
+
+  &:hover
+    background-color: tomato
+
+  &.selected
+    background-color: #ff2c0e
+
+svg
+  position: relative
+  top: 5px !important
+  left: 5px
+
+
+for $i in (1..10)
+  .cell-v{$i}
+    top: ($i - 1) * 50 px
+
+  .cell-h{$i}
+    left: ($i - 1) * 50 px

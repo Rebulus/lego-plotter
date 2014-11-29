@@ -1,0 +1,88 @@
+.grid {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.cell {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0f0;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.cell:hover {
+  background-color: #ff6347;
+}
+.cell.selected {
+  background-color: #ff2c0e;
+}
+svg {
+  position: relative;
+  top: 5px !important;
+  left: 5px;
+}
+.cell-v1 {
+  top: 0px;
+}
+.cell-h1 {
+  left: 0px;
+}
+.cell-v2 {
+  top: 50px;
+}
+.cell-h2 {
+  left: 50px;
+}
+.cell-v3 {
+  top: 100px;
+}
+.cell-h3 {
+  left: 100px;
+}
+.cell-v4 {
+  top: 150px;
+}
+.cell-h4 {
+  left: 150px;
+}
+.cell-v5 {
+  top: 200px;
+}
+.cell-h5 {
+  left: 200px;
+}
+.cell-v6 {
+  top: 250px;
+}
+.cell-h6 {
+  left: 250px;
+}
+.cell-v7 {
+  top: 300px;
+}
+.cell-h7 {
+  left: 300px;
+}
+.cell-v8 {
+  top: 350px;
+}
+.cell-h8 {
+  left: 350px;
+}
+.cell-v9 {
+  top: 400px;
+}
+.cell-h9 {
+  left: 400px;
+}
+.cell-v10 {
+  top: 450px;
+}
+.cell-h10 {
+  left: 450px;
+}
