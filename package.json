@@ -1,0 +1,27 @@
+{
+  "name": "lego-plotter",
+  "version": "0.1.0",
+  "description": "Plotter of LEGO device",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rebulus/lego-plotter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rebulus/lego-plotter/issues"
+  },
+  "devDependencies": {
+    "jscs": "1.0.15",
+    "jshint": "2.5.5",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jshint . && ./node_modules/.bin/jscs . ./node_modules/.bin/mocha"
+  }
+}

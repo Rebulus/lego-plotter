@@ -1,0 +1,33 @@
+{
+    "browser": true,
+    "devel": true,
+    "jquery": true,
+    "globals": {
+        "module": false,
+        "sinon": false,
+        "describe": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "it": true,
+        "expect": true
+    },
+
+    "bitwise": true,
+    "curly": true,
+    "eqnull": true,
+    "es3": true,
+    "indent": 4,
+    "latedef": "nofunc",
+    "multistr": false,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": false,
+    "nonstandard": true,
+    "onevar": false,
+    "sub": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "white": false
+}
